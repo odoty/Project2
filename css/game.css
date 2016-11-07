@@ -1,0 +1,28 @@
+.background    { background: black;
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background: rgb(0, 213, 10); }
+.wall          { background: rgb(210, 210, 210);   }
+.pitfall       { background: rgb(210, 210, 210);   }
+
+.actor  { position: absolute;  }
+.end    { background: rgb(255, 255, 255); }
+.player { background: rgb(153, 0, 224); }
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+	font: normal arial;
+    color: initial;
+}
